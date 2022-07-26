@@ -1,0 +1,77 @@
+/* TABLE OF CONTENTS */
+/* ------------------
+1. General
+2. Navbar
+3. Slider
+4. About
+5. Rooms
+6. Services
+6. Team
+7. Gallery
+8. Price
+9. Blog
+10. Footer
+-------------------- */
+
+/* 1 General */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  /*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Improve media defaults */
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Remove built-in form typography styles */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Create Custom Scroll-Bar */
+::-webkit-scrollbar {
+  width: 10px;
+  background: #c5cadf;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #70768a;
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #454f6b;
+}
+
+/* Common CSS Classes */
+.container {
+  max-width: 1440px;
+  width: 80%;
+  margin-inline: auto;
+}
