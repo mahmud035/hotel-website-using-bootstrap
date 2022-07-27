@@ -13,7 +13,7 @@
 10. Footer
 -------------------- */
 
-/* 1 General */
+/* 1. General */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
@@ -143,6 +143,12 @@ h6 {
   font-family: var(--secondary-font);
 }
 
+p {
+  font-size: 1rem;
+  color: var(--text-black);
+  line-height: 1.625rem;
+}
+
 /** Common CSS Classes  Style*/
 .main-btn {
   font-size: 1rem;
@@ -162,3 +168,14 @@ h6 {
   border-color: var(--secondary-color);
   color: var(--text-white);
 }
+
+.section-title::after {
+  content: '';
+  background-image: url('../images/title-icon.webp') no-repeat;
+  background-position: center center;
+  display: block;
+  margin-top: -0.9375rem;
+  height: 0.9375rem;
+}
+
+/* 2. Navbar */
