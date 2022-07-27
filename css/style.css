@@ -54,7 +54,7 @@ a {
   text-decoration: none;
 }
 
-/* Create Custom Scroll-Bar */
+/** Create Custom Scroll-Bar */
 ::-webkit-scrollbar {
   width: 10px;
   /* background: #c5cadf; */
@@ -74,7 +74,7 @@ a {
   background: #454f6b;
 } */
 
-/* CSS Custom Property  */
+/** CSS Custom Property  */
 :root {
   /* Background Color */
   --primary-color: #021832;
@@ -98,11 +98,52 @@ body {
   background-color: var(--bg-white);
 }
 
+/** Common CSS Element Style */
 section {
   padding: 3.125rem 0;
 }
 
-/* Common CSS Classes */
+h1 {
+  font-size: 3.75rem;
+  line-height: 4.25rem;
+  font-weight: 700;
+  color: var(--text-white);
+  margin-bottom: 1.25rem;
+  text-transform: uppercase;
+  font-family: var(--secondary-font);
+}
+
+h3 {
+  margin-bottom: 1.875rem;
+  line-height: 2.875rem;
+  font-weight: 700;
+  font-size: 2.25rem;
+  color: var(--primary-text);
+  font-family: var(--secondary-font);
+}
+
+h3 span {
+  color: var(--secondary-color);
+}
+
+h5 {
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--primary-text);
+  font-weight: 500;
+  font-family: var(--secondary-font);
+}
+
+h6 {
+  font-size: 0.875rem;
+  color: var(--primary-text);
+  margin-bottom: 0.9375rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: var(--secondary-font);
+}
+
+/** Common CSS Classes  Style*/
 .main-btn {
   font-size: 1rem;
   font-weight: 500;
