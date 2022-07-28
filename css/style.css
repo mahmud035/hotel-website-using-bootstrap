@@ -201,3 +201,42 @@ p {
 .header-wrapper .navbar-toggler:focus {
   box-shadow: none;
 }
+
+.header-wrapper .nav-item {
+  margin: 0 0.625rem;
+}
+
+.header-wrapper .nav-item .nav-link {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--primary-text);
+}
+
+.header-wrapper .nav-item .nav-link:hover,
+.header-wrapper .nav-item .nav-link:active {
+  color: var(--secondary-text);
+}
+
+.navbar.header-scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.85);
+  -webkit-animation: fadeInDown 500ms ease-in-out 0s normal none;
+  animation: fadeInDown 500ms ease-in-out 0s normal none;
+}
+
+@keyframes fadeInDown {
+  0% {
+    top: -30%;
+  }
+  50% {
+    top: -15%;
+  }
+  100% {
+    top: 0;
+  }
+}
