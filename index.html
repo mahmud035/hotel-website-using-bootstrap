@@ -34,8 +34,8 @@
     <title>Hotel Website | Bootstrap</title>
   </head>
   <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+    <!-- Navbar Section -->
     <header class="header-wrapper">
-      <!-- Navbar Section -->
       <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand" href="#">
@@ -94,6 +94,44 @@
         </div>
       </nav>
     </header>
+    <!-- Banner Section -->
+    <section id="home" class="banner-wrapper p-0">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div
+            class="swiper-slide"
+            style="background-image: url(./images/slider/slider1.webp)"
+          >
+            <div class="slide-caption text-center">
+              <h1>Welcome to hotel in Dubai</h1>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Repudiandae dolorum provident nobis quidem perferendis laborum
+                neque, veritatis placeat ipsam nam.
+              </p>
+            </div>
+          </div>
+
+          <!-- Slide-2 -->
+          <div
+            class="swiper-slide"
+            style="background-image: url(./images/slider/slider2.webp)"
+          >
+            <div class="slide-caption text-center">
+              <h1>Welcome to hotel in Dubai</h1>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Repudiandae dolorum provident nobis quidem perferendis laborum
+                neque, veritatis placeat ipsam nam.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
 
     <!-- Bootstrap JS CDN  Link -->
     <script

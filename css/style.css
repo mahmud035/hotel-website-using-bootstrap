@@ -240,3 +240,22 @@ p {
     top: 0;
   }
 }
+
+/* 3. Banner */
+.banner-wrapper {
+  height: 40.625rem;
+}
+
+.banner-wrapper .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.banner-wrapper .swiper-slide {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
